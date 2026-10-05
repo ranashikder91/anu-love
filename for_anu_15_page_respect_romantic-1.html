@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For Anu — A Little Sorry</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Georgia,"Noto Serif Bengali",serif}
+body{background:#f7f1e8;color:#3d302b;overflow:hidden}
+.page{display:none;min-height:100vh;padding:28px;align-items:center;justify-content:center;text-align:center}
+.page.active{display:flex;animation:show .55s ease}
+@keyframes show{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.paper{width:min(720px,100%);background:#fffdf8;border:1px solid #dfd1c0;border-radius:18px;padding:42px 28px;box-shadow:0 22px 60px #58433122;position:relative}
+.paper:before{content:"";position:absolute;inset:10px;border:1px solid #eadfd2;border-radius:12px;pointer-events:none}
+.content{position:relative;z-index:1}
+.orn{font-size:42px;color:#9b6b4d;margin-bottom:8px}
+.label{font-size:12px;letter-spacing:4px;color:#8e6a52;font-weight:bold}
+h1{font-size:clamp(40px,9vw,70px);font-weight:500;color:#7c3f4f;margin:12px 0}
+h2{font-size:29px;font-weight:500;color:#7c3f4f;margin:12px 0 20px}
+p{font-size:18px;line-height:2;margin:12px 0}
+.signature{margin-top:28px;font-size:20px;color:#7c3f4f}
+button{font-family:inherit;border:1px solid #9c6d55;background:#8c4d5e;color:#fffaf5;border-radius:8px;padding:12px 26px;font-size:16px;cursor:pointer;margin-top:22px;box-shadow:0 8px 20px #60353f25}
+button:hover{background:#743e4d}
+.pageNo{margin-top:22px;color:#9b806d;font-size:12px;letter-spacing:2px}
+.rose{font-size:82px;line-height:1}
+.divider{width:90px;height:1px;background:#cdb9a5;margin:22px auto}
+</style>
+</head>
+<body>
+
+<div class="page active"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">A SMALL LETTER FOR</div><h1>Anu</h1>
+<div class="divider"></div><p>এই ছোট্ট চিঠিটা শুধু অনুর জন্য। একেকটা পেজে আমার মনের একেকটা কথা—একটু সময় নিয়ে পড়বেন, প্লিজ। ❤️</p>
+<button onclick="next()">চিঠিটা খুলুন →</button>
+<div class="pageNo">01 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">A SINCERE APOLOGY</div><h2>প্রথমেই—Sorry, Anu</h2>
+<p>অনু, আজকে যা হয়েছে তার জন্য আমি সত্যিই দুঃখিত। আমার কোনো কথা বা আচরণে আপনি কষ্ট পেয়ে থাকলে, বিশ্বাস করুন—আপনাকে কষ্ট দেওয়া আমার কখনোই উদ্দেশ্য ছিল না। 🥺❤️</p>
+<button onclick="next()">পরের পাতা →</button><div class="pageNo">02 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">PLEASE READ</div><h2>শুধু Sorry বলেই শেষ না</h2>
+<p>আমি জানি, শুধু একটা Sorry বললেই সবকিছু সঙ্গে সঙ্গে ঠিক হয়ে যায় না। তাই আপনার কষ্টটা বুঝতে চাই, আপনার কথা শুনতে চাই, আর নিজের ভুলটা ঠিক করার সত্যিকারের চেষ্টা করতে চাই।</p>
+<button onclick="next()">আরও পড়ুন →</button><div class="pageNo">03 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">ABOUT YOU</div><h2>আপনি আমার কাছে গুরুত্বপূর্ণ</h2>
+<p>আপনার সাথে কথা বলা, আপনার হাসি, আপনার অভিমান—সবকিছুরই আমার কাছে আলাদা একটা মূল্য আছে। সত্যি বলতে, আপনার সাথে কথা না হলে দিনটা কেমন যেন অসম্পূর্ণ লাগে। 💗</p>
+<button onclick="next()">পরেরটা →</button><div class="pageNo">04 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">A LITTLE TRUTH</div><h2>আপনার মন খারাপটা বুঝি</h2>
+<p>আপনি কষ্ট পেলে সেটাকে কখনো “ছোট ব্যাপার” বলে এড়িয়ে যেতে চাই না। আপনার অনুভূতিগুলো আমার কাছে গুরুত্বপূর্ণ, আর আপনাকে আমি মন থেকে সম্মান করি। 🌹</p>
+<button onclick="next()">Next →</button><div class="pageNo">05 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">RESPECT</div><h2>রাগের মধ্যেও সম্মান</h2>
+<p>রাগ বা অভিমানের সময়ও আপনার প্রতি আমার সম্মান যেন কখনো একটুও কমে না যায়—এটাই আমি সবসময় মনে রাখতে চাই। কারণ আপনি আমার কাছে খুব সম্মানের একজন মানুষ। 🤍</p>
+<button onclick="next()">পরের পাতা →</button><div class="pageNo">06 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">A PROMISE</div><h2>একটা ছোট্ট প্রতিশ্রুতি</h2>
+<p>আমি নিখুঁত হওয়ার প্রতিশ্রুতি দেব না। তবে আপনাকে কষ্ট দেওয়া একই ভুল যেন বারবার না হয়, তার জন্য মন থেকে চেষ্টা করব। এইটুকু প্রতিশ্রুতি দিতে পারি। 💍</p>
+<button onclick="next()">আরও আছে →</button><div class="pageNo">07 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">LISTENING</div><h2>এবার আপনার কথা শুনব</h2>
+<p>আপনার কী খারাপ লেগেছে, কেন কষ্ট পেয়েছেন—আপনি যখন বলতে চাইবেন, আমি তর্ক করার জন্য নয়, আপনাকে বোঝার জন্য মন দিয়ে শুনব। 🫶</p>
+<button onclick="next()">পরেরটা →</button><div class="pageNo">08 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">ONE REQUEST</div><h2>শুধু একটা অনুরোধ</h2>
+<p>আপনি রাগ করতে পারেন, অভিমান করতে পারেন, সময়ও নিতে পারেন। শুধু মনটা একটু শান্ত হলে আমাকে আপনার সাথে কথা বলে ভুলটা ঠিক করার একটা সুযোগ দেবেন। 🥺</p>
+<button onclick="next()">Next →</button><div class="pageNo">09 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">TODAY</div><h2>আজকের জন্য ক্ষমা চাই</h2>
+<p>আজকের ভুল কথা, ভুল বোঝাবুঝি আর আপনার কষ্টের জন্য আমি মন থেকে ক্ষমা চাইছি। আমি বিষয়টাকে একদমই হালকাভাবে নিচ্ছি না, অনু। ❤️</p>
+<button onclick="next()">আরও একটু →</button><div class="pageNo">10 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">REMEMBER</div><h2>একটা খারাপ মুহূর্ত...</h2>
+<p>একটা ঝগড়া যেন আমাদের এত সুন্দর মুহূর্তগুলোর চেয়ে বড় হয়ে না যায়। আমি চাই ভুলের চেয়ে একে অপরকে বোঝার চেষ্টা আর ভালোবাসাটাই বড় হোক। 💞</p>
+<button onclick="next()">পরের পাতা →</button><div class="pageNo">11 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">FROM MY HEART</div><h2>Anu, আবারও বলছি</h2>
+<p>অনু, আমি সত্যিই Sorry। আপনার মনটা ভালো হোক, আপনার মুখে আবার হাসি ফুটুক—এইটাই মন থেকে চাই। 🌸</p>
+<button onclick="next()">আরও একটা কথা →</button><div class="pageNo">12 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">A QUIET THOUGHT</div><h2>আপনাকে কষ্ট দিয়ে ভালো থাকা যায় না</h2>
+<p>আপনার কষ্টকে আমি গুরুত্ব দিই বলেই এই ছোট্ট চিঠিটা লিখেছি। আশা করি আমার কথাগুলো আপনার মনটা একটু নরম করবে, আর আপনি বুঝবেন—আপনাকে আমি সত্যিই সম্মান করি ও মূল্য দিই। 🤍</p>
+<button onclick="next()">পরের পাতা →</button><div class="pageNo">13 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="orn">❦</div><div class="label">ALMOST THE END</div><h2>শেষের আগে একবার</h2>
+<p>ক্ষমা চাওয়া মানে নিজের অহংকারকে পাশে রাখা। আজ আমি সেটাই করতে চাই—কারণ আপনার মনটা আমার কাছে অহংকারের চেয়েও অনেক বেশি গুরুত্বপূর্ণ। 💗</p>
+<button onclick="next()">শেষ Surprise →</button><div class="pageNo">14 / 15</div></div></div></div>
+
+<div class="page"><div class="paper"><div class="content">
+<div class="rose">🌹</div><div class="label">THE LAST SURPRISE</div><h1>For Anu</h1>
+<div class="divider"></div><p>এই গোলাপটা শুধু অনুর জন্য। 🌹</p>
+<p>শেষবারের মতো বলছি—<b>অনু, আমি সত্যিই দুঃখিত।</b> আপনার মন ভালো হোক, আপনার অভিমানটা একটু কমুক, আর আপনি আবার হাসিমুখে আমার সাথে কথা বলুন—এইটাই আমার সবচেয়ে বড় চাওয়া। ❤️</p>
+<div class="signature">অগাধ সম্মান ও যত্ন নিয়ে,<br>যে মানুষটা আপনাকে সত্যিই খুব মূল্য দেয়। ❤️</div>
+<div class="pageNo">15 / 15</div></div></div></div>
+
+<script>
+let i=0;
+const pages=document.querySelectorAll('.page');
+function next(){
+ pages[i].classList.remove('active');
+ i=Math.min(i+1,pages.length-1);
+ pages[i].classList.add('active');
+}
+</script>
+</body>
+</html>
